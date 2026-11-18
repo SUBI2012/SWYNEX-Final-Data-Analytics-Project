@@ -1,0 +1,19 @@
+SWYNEX - DATA CLEANING & PREPARATION REPORT
+================================================
+Original rows: 891
+Original columns: 15
+Exact duplicate rows found: 107
+Rows after duplicate removal: 784
+Column removed: deck (high proportion of missing values)
+Missing age values: filled with median age
+Missing embarked / embark_town values: filled with mode
+Text columns: trimmed and converted to lowercase
+Numeric columns: converted to appropriate numeric types
+Final rows: 780
+Final columns: 14
+Missing values remaining: 0
+Duplicate rows remaining: 0
+
+Note: Exact duplicate rows were removed as requested. Since this dataset
+does not provide a unique passenger ID, identical rows could theoretically
+represent different passengers with identical recorded attributes.
